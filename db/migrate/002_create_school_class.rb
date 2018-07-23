@@ -1,4 +1,4 @@
-class CreateSchoolClasses < ActiveRecord::Base
+class CreateSchoolClass < ActiveRecord::Base
   def change
     create_table :school_classes do |t|
       t.string :title
